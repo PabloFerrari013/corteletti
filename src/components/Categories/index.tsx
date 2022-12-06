@@ -25,7 +25,7 @@ const Categories: React.FC = () => {
   })
 
   return (
-    <Box>
+    <Box px="1em">
       <Flex mt="2em">
         <Text as="h1" fontWeight="bold" fontSize="2em" color="gray.700">
           Categorias

@@ -163,7 +163,7 @@ const SearchBox: React.FC = () => {
             color="gray.600"
           />
 
-          <Modal isOpen={isOpen} onClose={onClose}>
+          <Modal isOpen={isOpen} onClose={onClose} size={['xs', 'sm']}>
             <ModalOverlay />
 
             <ModalContent>

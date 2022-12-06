@@ -131,7 +131,7 @@ const Bag: React.FC = () => {
             Alterar Endereço
           </Button>
 
-          <Modal isOpen={isOpen} onClose={onClose}>
+          <Modal isOpen={isOpen} onClose={onClose} size={['xs', 'sm']}>
             <ModalOverlay />
 
             <ModalContent>

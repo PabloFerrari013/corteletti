@@ -11,6 +11,7 @@ const Footer: React.FC = () => {
       textAlign="center"
       color="whiteAlpha.700"
       justify="space-between"
+      gap="1em"
     >
       <Text>Todos os direitos reservados © 2022</Text>
 
